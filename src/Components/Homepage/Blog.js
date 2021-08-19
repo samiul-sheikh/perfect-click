@@ -3,7 +3,7 @@ import img1 from '../../images/img1.jpg';
 import img2 from '../../images/img2.jpg';
 import img3 from '../../images/img3.jpg';
 
-const serviceData = [
+const blogData = [
     {
         name: 'Bride and Groom',
         image: img1
@@ -18,14 +18,14 @@ const serviceData = [
     }
 ]
 
-const Services = () => {
+const Blog = () => {
     return (
         <div className="h-screen bg-gray-100">
-            <section className="md:h-full flex items-center text-gray-600">
+            <section className="md:h-auto flex items-center text-gray-600">
                 <div className="container px-5 py-24 mx-auto">
                     <div className="text-center mb-12">
-                        <h3 className="text-base md:text-lg text-indigo-700 mb-1">The Services we provide</h3>
-                        <h1 className="text-4xl md:text-6xl text-gray-700 font-semibold">Our Services</h1>
+                        <h3 className="text-base md:text-lg text-indigo-700 mb-1">Here some of our photography article</h3>
+                        <h1 className="text-4xl md:text-6xl text-gray-700 font-semibold">Our Blog</h1>
                     </div>
 
                     <div className="flex flex-wrap -m-4">
@@ -47,7 +47,7 @@ const Services = () => {
                                 <img src={img2} alt="" className="lg:h-72 md:h-48 w-full object-cover object-center" />
                                 <div className="p-6 hover:bg-indigo-700 hover:text-white transition duration-300 ease-in">
                                     <h2 className="text-base font-medium text-indigo-300 mb-1">15 August, 2021</h2>
-                                    <h1 className="text-2xl font-semibold mb-3">Moments</h1>
+                                    <h1 className="text-2xl font-semibold mb-3">Bride and Groom</h1>
                                     <p className="leading-relaxed mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, adipisci!</p>
                                 </div>
                                 <div className="flex items-center flex-wrap">
@@ -60,7 +60,7 @@ const Services = () => {
                                 <img src={img3} alt="" className="lg:h-72 md:h-48 w-full object-cover object-center" />
                                 <div className="p-6 hover:bg-indigo-700 hover:text-white transition duration-300 ease-in">
                                     <h2 className="text-base font-medium text-indigo-300 mb-1">15 August, 2021</h2>
-                                    <h1 className="text-2xl font-semibold mb-3">Moments</h1>
+                                    <h1 className="text-2xl font-semibold mb-3">Bride and Groom</h1>
                                     <p className="leading-relaxed mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, adipisci!</p>
                                 </div>
                                 <div className="flex items-center flex-wrap">
@@ -75,4 +75,4 @@ const Services = () => {
     );
 };
 
-export default Services;
+export default Blog;
