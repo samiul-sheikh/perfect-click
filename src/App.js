@@ -1,13 +1,13 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
-import Navbar from './Components/Reuse/Navbar/Navbar';
-import Dropdown from './Components/Reuse/Dropdown/Dropdown';
-import Footer from './Components/Reuse/Footer/Footer';
-import Homepage from './Components/Homepage/Homepage/Homepage';
-import Services from './Components/Homepage/Services/Services';
-import Dashboard from './Components/Dashboard/Dashboard';
-import Contact from './Components/Homepage/Contact/Contact';
-import About from './Components/About/About';
+import Navbar from './Components/Reuse/Navbar';
+import Dropdown from './Components/Reuse/Dropdown';
+import Footer from './Components/Reuse/Footer';
+import Homepage from './Components/Homepage/Homepage';
+import Services from './Components/Homepage/Services';
+import Dashboard from './Components/Dashboard';
+import Contact from './Components/Homepage/Contact';
+import About from './Components/About';
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 function App() {
